@@ -1,0 +1,77 @@
+.menuHeader {
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+}
+.menuHeader a {
+    color: black;
+    text-decoration: none;
+    display: flex;
+    font-size: 20px;
+}    
+.menuHeader li {
+    list-style-type: none; 
+}
+    
+.menuHeader li a {
+    text-decoration: none;
+}
+.menuHeader li a:hover {
+    color: #0a0a0a;
+}
+.menuFooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}    
+.menuFooter li {
+    list-style-type: none; 
+}
+.redSocial {
+    border-radius: 50%;
+    width: 75%; 
+}
+.foto, .fotoTienda, .comentarios {
+    width: 100%; 
+}
+.logoPrincipal, .btnModal{
+    width: auto;
+}
+.fotoArticulo{
+  margin: auto;
+  padding: auto;
+  width: 50%;
+}
+.IrASeccion{
+  text-decoration: none;
+  color: black;
+}
+.barraNegra{
+    padding: 1rem;
+    margin: 1rem;
+    background-color: black;
+}
+.colorLetra{
+    color: white;
+}
+.card{
+    border-color: white;
+}
+.nav-item, .navbar-brand{
+    display: flex;
+    justify-content: center;    
+    justify-items: center;
+}
+.seleccionarMedioPago{
+    width: 100%;
+}
+.btn:hover {
+    border-color: white;
+}
+.btnModal{
+    padding: 0;
+    margin: 0;
+}
+
+
+

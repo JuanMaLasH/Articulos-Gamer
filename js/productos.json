@@ -1,0 +1,487 @@
+[{
+    "id": 1,
+    "foto": "/assets/images/tienda/almacenamiento/Disco_Rigido_WD_2TB.jpg",
+    "nombre": "Disco Rígido WD 2TB BLUE 256MB SATA 6.0GB/s",
+    "precio": 12154
+},
+{
+    "id": 2,
+    "foto": "/assets/images/tienda/almacenamiento/Disco_R__gido_WD_3TB.jpg",
+    "nombre": "Disco Rígido WD 3TB PURPLE 64MB SATA 6.0GB/s",
+    "precio": 21285
+},
+{
+    "id": 3,
+    "foto": "/assets/images/tienda/almacenamiento/Disco_Rigido_WD_3TB.jpg",
+    "nombre": "Disco Rigido WD 3TB Red NAS 5.4K RPM 64MB",
+    "precio": 22292
+},
+{
+    "id": 4,
+    "foto": "/assets/images/tienda/almacenamiento/Disco_Rigido_Toshiba_4TB.jpg",
+    "nombre": "Disco Rígido Toshiba 4TB X300 7.2K 128MB",
+    "precio": 28086
+},
+{
+    "id": 5,
+    "foto": "/assets/images/tienda/almacenamiento/Disco_R__gido_Toshiba_6TB.jpg",
+    "nombre": "Disco Rígido Toshiba 6TB N300 NAS 7200rpm 256MB",
+    "precio": 44836
+},
+{
+    "id": 6,
+    "foto": "/assets/images/tienda/almacenamiento/Disco_R__gido_Toshiba_8TB.jpg",
+    "nombre": "Disco Rígido Toshiba 8TB N300 NAS 7200rpm 256MB",
+    "precio": 50000
+},
+{
+    "id": 7,
+    "foto": "/assets/images/tienda/almacenamiento/Disco_Solido_SSD_Adata_240GB_SU650SS_520MB_s.jpg",
+    "nombre": "Disco Solido SSD Adata 240GB SU650SS 520MB/s",
+    "precio": 7053
+},
+{
+    "id": 8,
+    "foto": "/assets/images/tienda/almacenamiento/Disco_S__lido_SSD_Kingston_240GB_A400_500MB_s.jpg",
+    "nombre": "Disco Sólido SSD Kingston 240GB A400 500MB/s",
+    "precio": 7431
+},
+{
+    "id": 9,
+    "foto": "/assets/images/tienda/almacenamiento/Disco_Solido_SSD_Patriot_512GB_P210_520Mb_s.jpg",
+    "nombre": "Disco Solido SSD Patriot 512GB P210 520Mb/s 2.5",
+    "precio": 11335
+},
+{
+    "id": 10,
+    "foto": "/assets/images/tienda/almacenamiento/Disco_S__lido_SSD_M.2_Kingston_500GB_NV1_2100MB_s.jpg",
+    "nombre": "Disco Sólido SSD M.2 Kingston 500GB NV1 2100MB/s",
+    "precio": 13035
+},
+{
+    "id": 11,
+    "foto": "/assets/images/tienda/almacenamiento/Disco_S__lido_SSD_Adata_960GB_SU650_520MB_s.jpg",
+    "nombre": "Disco Sólido SSD Adata 960GB SU650 520MB/s",
+    "precio": 21159
+},
+{
+    "id": 12,
+    "foto": "/assets/images/tienda/almacenamiento/Disco_S__lido_SSD_Kingston_960GB_A400_500MB_s.jpg",
+    "nombre": "Disco Sólido SSD Kingston 960GB A400 500MB/s",
+    "precio": 21335
+},
+{
+    "id": 13,
+    "foto": "/assets/images/tienda/fuentes/Fuente_Deepcool_500W.jpg",
+    "nombre": "Fuente Deepcool 500W DA500 80 Plus Bronze",
+    "precio": 11398
+},
+{
+    "id": 14,
+    "foto": "/assets/images/tienda/fuentes/Fuente_Deepcool_600W.jpg",
+    "nombre": "Fuente Deepcool 600W DA600 80 Plus Bronze",
+    "precio": 13035
+},
+{
+    "id": 15,
+    "foto": "/assets/images/tienda/fuentes/Fuente_Deepcool_700W.jpg",
+    "nombre": "Fuente Deepcool 700W DA700 80 Plus Bronze",
+    "precio": 15050
+},
+{
+    "id": 16,
+    "foto": "/assets/images/tienda/fuentes/Fuente_Gamemax_800W.jpg",
+    "nombre": "Fuente Gamemax 800W 80 Plus Bronze VP-800",
+    "precio": 18010
+},
+{
+    "id": 17,
+    "foto": "/assets/images/tienda/fuentes/Fuente_Cooler_Master_MWE_V2_750W.jpg",
+    "nombre": "Fuente Cooler Master MWE V2 750W 80 Plus Bronze",
+    "precio": 21914
+},
+{
+    "id": 18,
+    "foto": "/assets/images/tienda/fuentes/Fuente_Deepcool_700W.jpg",
+    "nombre": "Fuente ASUS ROG STRIX 750G 80 Plus Gold 750W",
+    "precio": 43892
+}
+,
+{
+    "id": 19,
+    "foto": "/assets/images/tienda/gabinetes/Gabinete_Aerocool_Cylon.jpg",
+    "nombre": "Gabinete Aerocool Cylon Mini M-ATX",
+    "precio": 7557
+},
+{
+    "id": 20,
+    "foto": "/assets/images/tienda/gabinetes/Gabinete_Gamemax_H602.jpg",
+    "nombre": "Gabinete Gamemax H602 WB",
+    "precio": 9446
+},
+{
+    "id": 21,
+    "foto": "/assets/images/tienda/gabinetes/Gabinete_Kolink_Inspire_K20.jpg",
+    "nombre": "Gabinete Kolink Inspire K20",
+    "precio": 10327
+},
+{
+    "id": 22,
+    "foto": "/assets/images/tienda/gabinetes/Gabinete_Kolink_Inspire_K8.jpg",
+    "nombre": "Gabinete Kolink Inspire K8",
+    "precio": 10516
+},
+{
+    "id": 23,
+    "foto": "/assets/images/tienda/gabinetes/GABINETE_MAGNUMTECH_GAMER_235GM.jpg",
+    "nombre": "Gabinete MAGNUMTECH 235GM",
+    "precio": 11461
+},
+{
+    "id": 24,
+    "foto": "/assets/images/tienda/gabinetes/Gabinete_QBOX_Gaming_195G3.jpg",
+    "nombre": "Gabinete QBOX Gaming 195G3",
+    "precio": 13728
+},
+{
+    "id": 25,
+    "foto": "/assets/images/tienda/gabinetes/Gabinete_Aerocool_Trinity_Mini_G_White_V3.jpg",
+    "nombre": "Gabinete Aerocool Trinity Mini G V3",
+    "precio": 14987
+},
+{
+    "id": 26,
+    "foto": "/assets/images/tienda/gabinetes/Gabinete_Deepcool_MATREXX_50.jpg",
+    "nombre": "Gabinete Deepcool MATREXX 50",
+    "precio": 16940
+},
+{
+    "id": 27,
+    "foto": "/assets/images/tienda/gabinetes/Gabinete_Lian_Li_Lancool_205.jpg",
+    "nombre": "Gabinete Lian Li Lancool 205 White",
+    "precio": 20781
+},
+{
+    "id": 28,
+    "foto": "/assets/images/tienda/memorias/Memoria_Team_DDR4_32GB.jpg",
+    "nombre": "Memoria Team DDR4 8GB 3200MHz T-Force Vulcan Z",
+    "precio": 9257
+},
+{
+    "id": 29,
+    "foto": "/assets/images/tienda/memorias/Memoria_GeiL_DDR4_16GB.jpg",
+    "nombre": "Memoria GeiL DDR4 16GB 3000MHz Orion RGB Black",
+    "precio": 16310
+},
+{
+    "id": 30,
+    "foto": "/assets/images/tienda/memorias/Memoria_GeiL_DDR4_16GB_rgb.jpg",
+    "nombre": "Memoria GeiL DDR4 16GB 3000MHz Super Luce RGB",
+    "precio": 19458
+},
+{
+    "id": 31,
+    "foto": "/assets/images/tienda/memorias/Memoria_Team_DDR4_32GB.jpg",
+    "nombre": "Memoria Team DDR4 32GB 2666MHz T-Force Delta RGB Black CL18",
+    "precio": 27207
+},
+{
+    "id": 32,
+    "foto": "/assets/images/tienda/memorias/Memoria_Adata_DDR5.jpg",
+    "nombre": "Memoria Adata DDR5 16GB 5200MHz XPG Lancer Black",
+    "precio": 29723
+},
+{
+    "id": 33,
+    "foto": "/assets/images/tienda/memorias/Memoria_Team_DDR4_32GB.jpg",
+    "nombre": "Memoria Team DDR4 32GB 3600MHz T-Force Delta RGB Black CL18",
+    "precio": 36461
+},
+{
+    "id": 34,
+    "foto": "/assets/images/tienda/monitores/Monitor_Lenovo_22.jpg",
+    "nombre": "Monitor Lenovo 22 HDMI VGA S22E",
+    "precio": 52519
+},
+{
+    "id": 35,
+    "foto": "/assets/images/tienda/monitores/Monitor_Samsung_19.jpg",
+    "nombre": "Monitor Samsung 19 A330N",
+    "precio": 56360
+},
+{
+    "id": 36,
+    "foto": "/assets/images/tienda/monitores/Monitor_Benq_24.jpg",
+    "nombre": "Monitor_BENQ_24",
+    "precio": 75430
+},
+{
+    "id": 37,
+    "foto": "/assets/images/tienda/monitores/Monitor_LG_26.jpg",
+    "nombre": "Monitor LG 26 26WQ500-B UltraWide",
+    "precio": 83249
+},
+{
+    "id": 38,
+    "foto": "/assets/images/tienda/monitores/Monitor_Gamer_Gigabyte_24.jpg",
+    "nombre": "Monitor Gamer Gigabyte 24 Edge FHD",
+    "precio": 94962
+},
+{
+    "id": 39,
+    "foto": "/assets/images/tienda/monitores/Monitor_Gamer_Samsung_27.jpg",
+    "nombre": "Monitor Samsung 27 RG50 FullHD Curvo",
+    "precio": 125063
+},
+{
+    "id": 40,
+    "nombre": "Mother Gigabyte AB350M V2.0 DS3H",
+    "foto": "/assets/images/tienda/mothers/Mother_Gigabyte_AB350M.jpg",
+    "precio": 15617
+},
+{
+    "id": 41,
+    "nombre": "Mother Gigabyte GA-A320M-H AM4",
+    "foto": "/assets/images/tienda/mothers/Mother_Gigabyte_GA-A320M.jpg",
+    "precio": 18640 
+},
+{
+    "id": 42,
+    "nombre": "Mother Gigabyte A520M H AM4",
+    "foto": "/assets/images/tienda/mothers/Mother_Gigabyte_A520M.jpg",
+    "precio": 24559
+},
+{
+    "id": 43,
+    "nombre": "Mother ASUS PRIME B550M-K AM4",
+    "foto": "/assets/images/tienda/mothers/Mother_ASUS_PRIME_B550M-K.jpg",
+    "precio": 34131
+},
+{
+    "id": 44,
+    "nombre": "Mother Asrock B450 Steel Legend AM4",
+    "foto": "/assets/images/tienda/mothers/Mother_Asrock_B450_Steel_Legend.jpg",
+    "precio": 38854
+},
+{
+    "id": 45,
+    "nombre": "Mother ASUS PRIME X570-P AM4 PCIe",
+    "foto": "/assets/images/tienda/mothers/Mother_ASUS_PRIME_X570-P.jpg",
+    "precio": 59509
+},
+{
+    "id": 46,
+    "nombre": "Mother MSI H310M PRO-VDH",
+    "foto": "/assets/images/tienda/mothers/Mother_MSI_H310M.jpg",
+    "precio": 15617
+},
+{
+    "id": 47,
+    "nombre": "Mother ASUS PRIME H510M-E Socket",
+    "foto": "/assets/images/tienda/mothers/Mother_ASUS_PRIME_H510M-E.jpg",
+    "precio": 20907
+},
+{
+    "id": 48,
+    "nombre": "Mother Gigabyte B560M DS3H V2",
+    "foto": "/assets/images/tienda/mothers/Mother_Gigabyte_B560M.jpg",
+    "precio": 23048
+},
+{
+    "id": 49,
+    "nombre": "Mother ASUS ROG STRIX B460-H Gaming",
+    "foto": "/assets/images/tienda/mothers/Mother_ASUS_ROG_STRIX_B460-H.jpg",
+    "precio": 38035
+},
+{
+    "id": 50,
+    "nombre": "Mother Gigabyte B660M DS3H DDR4",
+    "foto": "/assets/images/tienda/mothers/Mother_Gigabyte_B660M.jpg",
+    "precio": 45151
+},
+{
+    "id": 51,
+    "nombre": "Mother ASUS PRIME Z590-P ATX S1200",
+    "foto": "/assets/images/tienda/mothers/Mother_ASUS_PRIME_Z590-P.jpg",
+    "precio": 51763
+},
+{
+    "id": 52,
+    "nombre": "Mouse Redragon Griffin M607",
+    "foto": "/assets/images/tienda/mouses/Mouse_Redragon_Griffin_M607.jpg",
+    "precio": 3401
+},
+{
+    "id": 53,
+    "nombre": "Mouse Redragon M711-W",
+    "foto": "/assets/images/tienda/mouses/Mouse_Redragon_M711-W.jpg",
+    "precio": 4660
+},
+{
+    "id": 54,
+    "nombre": "Mouse Marvo Scorpion G945",
+    "foto": "/assets/images/tienda/mouses/Mouse_Marvo_Scorpion_G945.jpg",
+    "precio": 5227
+},
+{
+    "id": 55,
+    "nombre": "Mouse Redragon Impact M908",
+    "foto": "/assets/images/tienda/mouses/Mouse_Redragon_Impact_M908.jpg",
+    "precio": 5353
+},
+{
+    "id": 56,
+    "nombre": "Mouse HP HyperX Pulsefire",
+    "foto": "/assets/images/tienda/mouses/Mouse_HP_HyperX.jpg",
+    "precio": 8375
+},
+{
+    "id": 57,
+    "nombre": "Mouse Logitech G502",
+    "foto": "/assets/images/tienda/mouses/Mouse_Logitech_G502.jpg",
+    "precio": 9509
+},
+{
+    "id": 58,
+    "nombre": "Placa de Video MSI GeForce GTX 1660 SUPER 6GB GDDR6 GAMING X",
+    "foto": "/assets/images/tienda/placas-de-video/Placa_de_Video_MSI_GeForce_GTX_1660.jpg",
+    "precio": 86335
+},
+{
+    "id": 59,
+    "nombre": "Placa de Video Zotac GeForce RTX 2060 12GB GDDR6 Twin Fan",
+    "foto": "/assets/images/tienda/placas-de-video/Placa_de_Video_Zotac_GeForce_RTX_2060.jpg",
+    "precio": 98929
+},
+{
+    "id": 60,
+    "nombre": "Placa de Video Zotac GeForce RTX 3070 Ti 8GB GDDR6X Trinity",
+    "foto": "/assets/images/tienda/placas-de-video/Placa_de_Video_Zotac_GeForce_RTX_3070.jpg",
+    "precio": 215113 
+},
+{
+    "id": 61,
+    "nombre": "Placa de Video Asrock RX 570 8GB GDDR5 Phantom Gaming Elite",
+    "foto": "/assets/images/tienda/placas-de-video/Placa_de_Video_Asrock_RX_570.jpg",
+    "precio": 66814 
+},
+{
+    "id": 62,
+    "nombre": "Placa de Video PowerColor Radeon RX 6600 8GB GDDR6 FIGHTER",
+    "foto": "/assets/images/tienda/placas-de-video/Placa_de_Video_PowerColor_Radeon_RX_6600.jpg",
+    "precio": 106045
+},
+{
+    "id": 63,
+    "nombre": "Placa de Video Asrock Radeon RX 5600 XT 6GB GDDR6 Phantom Gaming D2 OC",
+    "foto": "/assets/images/tienda/placas-de-video/Placa_de_Video_Asrock_Radeon_RX_5600_XT_6GB.jpg",
+    "precio": 115113
+},
+{
+    "id": 64,
+    "nombre": "Placa de Video Asrock Radeon RX 6700 XT 12GB GDDR6 Challenger D",
+    "foto": "/assets/images/tienda/placas-de-video/Placa_de_Video_Asrock_Radeon_RX_6700_XT.jpg",
+    "precio": 134446 
+},
+{
+    "id": 65,
+    "nombre": "Placa de Video ASUS Radeon RX 6750 XT Dual 12GB GDDR6 OC Edition",
+    "foto": "/assets/images/tienda/placas-de-video/Placa_de_Video_ASUS_Radeon_RX_6750_XT.jpg",
+    "precio": 161856
+},
+{
+    "id": 66,
+    "nombre": "Placa de Video Asrock Radeon RX 6800 XT 16GB GDDR6 Phantom Gaming D OC",
+    "foto": "/assets/images/tienda/placas-de-video/Placa_de_Video_Asrock_Radeon_RX_5600_XT_6GB.jpg",
+    "precio": 201511 
+},
+{
+    "id": 67,
+    "nombre": "Procesador AMD Ryzen 5 4500 + Wraith Stealth Cooler AM4",
+    "foto": "/assets/images/tienda/procesadores/Procesador_AMD_Ryzen_5.jpg",
+    "precio": 36398
+},
+{
+    "id": 68,
+    "nombre": "Procesador AMD Ryzen 5 4600G 3.7GHz + Wraith Stealth Cooler AM4",
+    "foto": "/assets/images/tienda/procesadores/Procesador_AMD_Ryzen_5.jpg",
+    "precio": 44332
+},
+{
+    "id": 69,
+    "nombre": "Procesador AMD Ryzen 5 5600G 4.4GHz Turbo + Wraith Stealth Cooler",
+    "foto": "/assets/images/tienda/procesadores/Procesador_AMD_Ryzen_5_2.jpg",
+    "precio": 52519  
+},
+{
+    "id": 70,
+    "nombre": "Procesador AMD Ryzen 7 PRO 4750G + Wraith Stealth Cooler OEM",
+    "foto": "/assets/images/tienda/procesadores/Procesador_AMD_Ryzen_7.jpg",
+    "precio": 71599
+},
+{
+    "id": 71,
+    "nombre": "Procesador AMD Ryzen 7 5700X 4.6GHz Turbo AM4 - No incluye Cooler",
+    "foto": "/assets/images/tienda/procesadores/Procesador_AMD_Ryzen_7.jpg",
+    "precio": 85139
+},
+{
+    "id": 72,
+    "nombre": "Procesador AMD Ryzen 7 5700G 4.6GHz Turbo + Wraith Stealth Cooler",
+    "foto": "/assets/images/tienda/procesadores//Procesador_AMD_Ryzen_7.jpg",
+    "precio": 87217
+},
+{
+    "id": 73,
+    "nombre": "Procesador Intel Core i3 10100F 4.3GHz Turbo 1200 Comet Lake",
+    "foto": "/assets/images/tienda/procesadores/Procesador_Intel_Core_i3.jpg",
+    "precio": 18955 
+},
+{
+    "id": 74,
+    "nombre": "Procesador Intel Core i5 10400F 4.3GHz Turbo 1200 Comet Lake",
+    "foto": "/assets/images/tienda/procesadores/Procesador_Intel_Core_i5.jpg",
+    "precio": 43325
+},
+{
+    "id": 75,
+    "nombre": "Procesador Intel Core i7 10700 4.8GHz Turbo Socket 1200 Comet Lake",
+    "foto": "/assets/images/tienda/procesadores/Intel_Core_i7.jpg",
+    "precio": 81423
+},
+{
+    "id": 76,
+    "nombre": "Teclado Redragon K509 Dyaus",
+    "foto": "/assets/images/tienda/teclados/Teclado_Redragon_K509.jpg",
+    "precio": 4471
+},
+{
+    "id": 77,
+    "nombre": "Teclado Mecanico Marvo KG962SP-B",
+    "foto": "/assets/images/tienda/teclados/Teclado_Mecanico_Marvo_KG962SP-B.jpg",
+    "precio": 6171 
+},
+{
+    "id": 78,
+    "nombre": "Teclado Redragon Dark Avenger K568RGB",
+    "foto": "/assets/images/tienda/teclados/Teclado_Mecanico_Redragon_Dark_Avenger_K568RGB.jpg",
+    "precio": 8942 
+},
+{
+    "id": 79,
+    "nombre": "Teclado Logitech G213 Prodigy RGB Inglés",
+    "foto": "/assets/images/tienda/teclados/Teclado_Logitech_G213.jpg",
+    "precio": 9761 
+},
+{
+    "id": 80,
+    "nombre": "Teclado HP HyperX Origins 60 Pink",
+    "foto": "/assets/images/tienda/teclados/Teclado_Mecanico_HP_HyperX_Origins_60.jpg",
+    "precio": 16688 
+},
+{
+    "id": 81,
+    "nombre": "Teclado Logitech PRO TKL LOL 2",
+    "foto": "/assets/images/tienda/teclados/Teclado_Mecanico_Logitech_PRO.jpg",
+    "precio": 24307 
+}]

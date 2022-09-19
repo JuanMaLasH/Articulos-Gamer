@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../assets/images/favicon-32x32.png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/estilo.css">
+    <title>Tienda || Artículos Gamer</title>
+</head>
+<body>
+  <header class="container">
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-white bg-white menuHeader">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <a class="navbar-brand" href="/index.html"><img src="/assets/images/logos/logologo.jpg" class="logoPrincipal" alt="Logo Artículos Gamer"></a>
+                        <li class="nav-item p-4">
+                            <a class="nav-link" href="/sites/tienda.html">Tienda</a>
+                        </li>
+                        <li class="nav-item p-4">
+                            <a class="nav-link" href="/sites/preguntas-frecuentes.html">Preguntas Frecuentes</a>
+                        </li>
+                        <li class="nav-item p-4">
+                            <a class="nav-link" href="/sites/contacto.html">Contacto</a>
+                        </li>
+                      </ul>
+              </div>
+                      <!-- Button trigger modal -->
+                      <button id="toggleMyModal" type="button" class="btn btnModal" data-bs-toggle="modal" style="border-color:white;" data-bs-target="#exampleModalToggle" ><img src="/assets/images/carrito2.jpg" alt="carrito de compras" class="btnModal"></img>
+                      </button>
+            </div>
+          </nav>
+    </div>
+</header>    
+    <main class="container-fluid">
+        <img src="../assets/images/tienda/productos.jpg" alt="Banner de la tienda" class="fotoTienda"> <br><br>
+        <div class="container">
+            <h2 class="text-center">
+                Nuestros Productos
+            </h2>
+           <!-- Modal -->
+        <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+        <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalToggleLabel">Carrito de compras</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+          <div class="container">
+          <table class="table">
+              <thead>
+                  <tr>
+                      <th scope="col">ID</th>
+                      <th scope="col">Nombre</th>
+                      <th scope="col">Cantidad</th>
+                      <th scope="col">Precio</th>
+                      <th scope="col">Total</th>
+                  </tr>
+              </thead>
+              <tbody id="items"></tbody>
+                  <tfoot>
+                      <tr id="footer">
+                          <th scope="row" colspan="5" class="text-center"></th>
+                      </tr>
+                  </tfoot>
+          </table>
+      <div class="row" id="cards"></div>
+      </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Cerrar</button>
+            <button class="btn btn-primary" id="botonSiguiente" onclick="finalizarCompra ()" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Siguiente</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalToggleLabel2">Datos bancarios para finalizar transacción</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <tbody>
+              <div id="itemsFinalizarCompra" class="col-md-12 text-center"></div>
+              <form class="row text-center p-3" id="formulario">
+                <div class="col-md-6 p-3">
+                  <label for="inputName" class="form-label"><strong>Nombre</strong></label>
+                  <input type="text" class="form-control text-center" placeholder="Juan" id="nombre">
+                </div>
+                <div class="col-md-6 p-3">
+                  <label for="inputSurname" class="form-label"><strong>Apellido</strong></label>
+                  <input type="text" class="form-control text-center" placeholder="Perez" id="apellido">
+                </div>
+                <div class="col-md-6 p-3">
+                  <label for="inputEmail" class="form-label"><strong>Mail</strong></label>
+                  <input type="email" class="form-control text-center" placeholder="JuanPerez@hotmail.com" id="email">
+                </div>
+                <div class="col-md-6 p-3">
+                  <label for="inputPassword" class="form-label"><strong>Contraseña</strong></label>
+                  <input type="password" class="form-control text-center" placeholder="••••••" id="contraseña" >
+                </div>
+                <div class="col-md-4 p-3">
+                  <label for="inputAddress" class="form-label"><strong>Dirección</strong></label>
+                  <input type="text" class="form-control text-center" placeholder="Av. Amancio Alcorta 2570" id="dirección">
+                </div>
+                <div class="col-md-4 p-3">
+                  <label for="input" class="form-label"><strong>Localidad</strong></label>
+                  <input type="text" class="form-control text-center" placeholder="CABA" id="localidad">
+                </div>
+                <div class="col-md-4 p-3">
+                  <label for="input" class="form-label"><strong>Código Postal</strong></label>
+                  <input type="number" class="form-control text-center" placeholder="1400" id="códigoPostal">
+                </div>
+                <div class="col-md-4 p-3">
+                  <label for="input" class="form-label"><strong>Números de tarjeta</strong></label>
+                  <input type="number" class="form-control text-center" placeholder="1234-5678-1234-5678" id="númerosTarjeta">
+                </div>
+                <div class="col-md-4 p-3">
+                  <label for="input" class="form-label"><strong>Fecha de vencimiento</strong></label>
+                  <input type="number" class="form-control text-center" placeholder="12/24" id="vencimiento">
+                </div>
+                <div class="col-md-4 p-3">
+                  <label for="input" class="form-label"><strong>Código de Seguridad</strong></label>
+                  <input type="number" class="form-control text-center" placeholder="999" id="códigoSeguridad">
+                </div>
+                <div class="col-6 p-3">
+                  <button type="submit" class="btn btn-primary" id="botonFinalizar">Enviar</button>
+                </div>
+                <div class="col-6 p-3">
+                  <input type="reset" class="btn btn-primary">
+                </div>  
+              </form>
+            </tbody>
+            <tfoot>
+              <tr id="footerFinalizarCompra">
+                  <th scope="row" colspan="5" class="text-center"></th>
+              </tr>
+          </tfoot>
+          </div> 
+          <div class="modal-footer">
+            <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Volver</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-2" id="boton">
+          <!-- Aqui el boton -->
+      </div>
+  </div>
+  <p></p>
+  <div class="row">
+      <div class="col-md-12">
+          <select id="miSeleccion" class="form-select" aria-label="Default select example">
+              <option value="pordefecto" class="text-center">Filtrar por precio</option>
+              <option value="menor" class="text-center">Por menor precio</option>
+              <option value="mayor" class="text-center">Por mayor precio</option>
+            </select>
+          <p></p>
+      </div>
+  </div>
+    <div id="contenedor-productos" class="row">
+      <!-- Cards -->
+    </div> 
+    </main>
+    <footer>
+        <img src="/assets/images/logos/marcas.jpg" alt="Marcas" class="foto">
+        <div class="barraNegra">
+          <nav>
+              <ul class= "menuFooter">
+                 <li><a href="https://www.facebook.com" target="_blank"><img src="/assets/images/logos/facebook.jpg" alt="Logo Facebook" class="redSocial"></a></li>
+                 <li><a href="https://www.instagram.com" target="_blank"><img src="/assets/images/logos/instagram.jpg" alt="Logo Instagram" class="redSocial"></a></li>
+                 <li><a href="https://www.youtube.com" target="_blank"><img src="/assets/images/logos/youtube.jpg" alt="Logo Youtube" class="redSocial"></a></li>
+                 <li><a href="https://www.twitter.com" target="_blank"><img src="/assets/images/logos/twitter.jpg" alt="Logo Twitter" class="redSocial"></a></li>
+              </ul>
+          </nav>
+      <h5 class="text-center colorLetra">
+          Todos los derechos reservados ©
+      </h5>
+    </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script defer src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="/js/tienda.js"></script>
+</body>
+</html>
